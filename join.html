@@ -53,7 +53,7 @@
       <section class="hero-section join-hero">
         <div class="container recruit-grid reveal">
           <span class="gold-circle circle-sm" style="top: 12%; left: 4%;"></span>
-          <span class="gold-circle circle-lg" style="top: -1%; left: 1%;"></span>
+          <span class="gold-circle circle-lg mobile-hide-ring" style="top: -1%; left: 1%;"></span>
           <span class="gold-circle circle-md" style="bottom: 14%; right: 6%;"></span>
           <div class="recruit-copy">
             <h1 class="join-brand">Kindled Spirits</h1>
@@ -71,17 +71,22 @@
             <div class="pointer-stage" aria-hidden="true">
               <svg class="pointer-figure" viewBox="0 0 360 420" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <ellipse cx="180" cy="378" rx="106" ry="22" fill="rgba(28,45,107,0.12)" />
-                <circle cx="180" cy="88" r="44" fill="#F5F0E8" stroke="#1C2D6B" stroke-width="5" />
+                <rect x="144" y="10" width="72" height="44" rx="4" fill="#1C2D6B" stroke="#0D1B3E" stroke-width="5" />
+                <rect x="140" y="44" width="80" height="12" rx="4" fill="#F5C842" />
+                <path d="M128 56H232" stroke="#1C2D6B" stroke-width="8" stroke-linecap="round" />
                 <rect x="126" y="142" width="108" height="138" rx="34" fill="#1C2D6B" stroke="#0D1B3E" stroke-width="5" />
                 <path d="M154 192L108 230" stroke="#1C2D6B" stroke-width="10" stroke-linecap="round" />
                 <path d="M206 190L286 164" stroke="#D4B896" stroke-width="16" stroke-linecap="round" />
                 <path d="M286 164L320 154" stroke="#D4B896" stroke-width="14" stroke-linecap="round" />
                 <path d="M160 280L148 352" stroke="#1C2D6B" stroke-width="10" stroke-linecap="round" />
                 <path d="M202 280L214 352" stroke="#1C2D6B" stroke-width="10" stroke-linecap="round" />
-                <path d="M132 54H228V82H132V54Z" fill="#F5C842" stroke="#1C2D6B" stroke-width="5" />
-                <path d="M118 80H242" stroke="#1C2D6B" stroke-width="8" stroke-linecap="round" />
-                <circle cx="180" cy="88" r="34" fill="#FFFFFF" />
-                <image href="assets/logo.svg" x="146" y="54" width="68" height="68" preserveAspectRatio="xMidYMid meet" />
+                <image href="assets/logo.svg" x="136" y="44" width="88" height="88" preserveAspectRatio="xMidYMid slice" clip-path="url(#logoFaceClip)" />
+                <circle cx="180" cy="88" r="44" fill="none" stroke="#1C2D6B" stroke-width="5" />
+                <defs>
+                  <clipPath id="logoFaceClip">
+                    <circle cx="180" cy="88" r="44" />
+                  </clipPath>
+                </defs>
               </svg>
               <svg class="corner-elders" viewBox="0 0 120 90" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="33" cy="20" r="12" fill="#F5C842" stroke="#1C2D6B" stroke-width="3" />

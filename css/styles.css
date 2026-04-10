@@ -253,6 +253,7 @@ button {
   border-radius: 50%;
   pointer-events: none;
   opacity: 0.95;
+  z-index: 0;
 }
 
 .gold-circle.circle-sm {
@@ -683,6 +684,8 @@ body.nav-open .nav-menu {
 }
 
 .issue-heading {
+  position: relative;
+  z-index: 1;
   display: grid;
   gap: 0.9rem;
   max-width: 34rem;
@@ -1364,6 +1367,14 @@ body.nav-open .nav-menu {
   width: 100%;
 }
 
+.parkview-caption {
+  margin: 0.9rem 0 0;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-weight: 900;
+  color: var(--navy);
+}
+
 .mission-list {
   display: grid;
   gap: 0.8rem;
@@ -1598,6 +1609,10 @@ body.nav-open .nav-menu {
   .page-section,
   .hero-section {
     padding: 4rem 0;
+  }
+
+  .mobile-hide-ring {
+    display: none;
   }
 
   .card,
