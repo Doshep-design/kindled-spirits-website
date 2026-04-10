@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kindled Spirits | Myths &amp; Facts</title>
+    <meta
+      name="description"
+      content="Kindled Spirits shares three common myths about aging and the truths that help us better support older adults."
+    />
+    <link rel="icon" type="image/svg+xml" href="assets/logo.svg" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&amp;family=Nunito:wght@700;800;900&amp;family=DM+Sans:wght@400;500;600;700&amp;family=Caveat:wght@600&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script defer src="js/main.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar" aria-label="Primary">
+        <div class="nav-inner">
+          <a class="brand" href="index.html" aria-label="Kindled Spirits home">
+            <img class="brand-mark" src="assets/logo.svg" alt="Kindled Spirits logo" />
+            <span class="brand-name">Kindled Spirits</span>
+          </a>
+          <button
+            class="nav-toggle"
+            type="button"
+            data-nav-toggle
+            aria-expanded="false"
+            aria-controls="primary-menu"
+            aria-label="Open navigation menu"
+          >
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M4 7H20" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" />
+              <path d="M4 12H20" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" />
+              <path d="M4 17H20" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" />
+            </svg>
+          </button>
+          <div class="nav-menu" id="primary-menu" data-nav-menu>
+            <a class="nav-link" href="index.html" data-nav-link>Home</a>
+            <a class="nav-link" href="about.html" data-nav-link>About</a>
+            <a class="nav-link" href="myths.html" aria-current="page" data-nav-link>Myths &amp; Facts</a>
+            <a class="nav-link" href="events.html" data-nav-link>Our Work</a>
+            <a class="nav-link nav-cta" href="join.html" data-nav-link>Join Us</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="site-main">
+      <section class="page-section myths-page myths-intro">
+        <div class="container reveal">
+          <div class="post-shell myths-hero-shell">
+            <span class="gold-circle circle-sm" style="top: 8%; left: 4%;"></span>
+            <span class="gold-circle circle-md" style="top: 0; left: 10%;"></span>
+            <span class="gold-circle circle-lg" style="bottom: 12%; right: 6%;"></span>
+            <span class="gold-circle circle-xl" style="bottom: -1%; right: 14%;"></span>
+            <img class="post-logo" src="assets/logo.svg" alt="Kindled Spirits logo" />
+            <div>
+              <div class="brand-name" style="font-size:2rem;">Kindled Spirits</div>
+            </div>
+            <article class="post-card">
+              <h1 class="display-title">3 Myths</h1>
+              <p class="myth-subheading">ABOUT SENIOR CITIZENS</p>
+              <p class="body-copy" style="font-family:'Playfair Display', serif;font-style:italic;font-size:1.35rem;margin:0;">scroll down to find out!</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="page-section myths-page">
+        <div class="container reveal">
+          <div class="post-shell">
+            <img class="post-logo" src="assets/logo.svg" alt="Kindled Spirits logo" />
+            <span class="pill-banner">Let's set the record straight:</span>
+            <article class="post-card setup-card">
+              <p class="body-copy" style="margin:0;">
+                Aging is a natural part of life, but it's often surrounded by myths and misconceptions. Read on to uncover three common myths about growing older and the real truths behind them.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="page-section myths-page">
+        <div class="container reveal">
+          <div class="post-shell">
+            <img class="post-logo" src="assets/logo.svg" alt="Kindled Spirits logo" />
+            <article class="myth-stack auto-reveal" data-reveal-delay="3000">
+              <div class="myth-row">
+                <span class="pill-banner fact-label">Myth:</span>
+                <div class="fact-card">
+                  <div class="fact-card-inner">
+                    <div class="fact-icon" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" fill="none">
+                        <path d="M9.5 3C6.462 3 4 5.462 4 8.5C4 10.247 4.811 11.806 6.079 12.815L6.5 17H11.5L10 20.5H14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M16 13L20 17M20 13L16 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                      </svg>
+                    </div>
+                    <div>
+                      <p>Aging means losing creativity and purpose.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="btn btn-gold reveal-truth" type="button" data-reveal-button aria-expanded="false" aria-controls="truth-1">
+                Reveal the truth
+              </button>
+              <div class="myth-row">
+                <span class="pill-banner fact-label">Truth:</span>
+                <div class="fact-card truth-card" id="truth-1">
+                  <div class="fact-card-inner">
+                    <div class="fact-icon" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" fill="none">
+                        <path d="M12 3L14.9 8.876L21 9.764L16.5 14.15L17.56 20.236L12 17.312L6.44 20.236L7.5 14.15L3 9.764L9.1 8.876L12 3Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                      </svg>
+                    </div>
+                    <div>
+                      <p>Many older adults find more time to explore passions, volunteer, and create. One's creativity doesn't just disappear, it <strong>grows</strong>.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="page-section myths-page">
+        <div class="container reveal">
+          <div class="post-shell">
+            <img class="post-logo" src="assets/logo.svg" alt="Kindled Spirits logo" />
+            <article class="myth-stack auto-reveal" data-reveal-delay="3000">
+              <div class="myth-row">
+                <span class="pill-banner fact-label">Myth:</span>
+                <div class="fact-card">
+                  <div class="fact-card-inner">
+                    <div class="fact-icon" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" fill="none">
+                        <path d="M12 4C8.134 4 5 7.134 5 11V14H7V20H17V14H19V11C19 7.134 15.866 4 12 4Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                        <path d="M10 10H10.01M14 10H14.01M9 15C9.8 14.4 10.8 14 12 14C13.2 14 14.2 14.4 15 15" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                      </svg>
+                    </div>
+                    <div>
+                      <p>Memory loss is an inevitable part of aging.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="btn btn-gold reveal-truth" type="button" data-reveal-button aria-expanded="false" aria-controls="truth-2">
+                Reveal the truth
+              </button>
+              <div class="myth-row">
+                <span class="pill-banner fact-label">Truth:</span>
+                <div class="fact-card truth-card" id="truth-2">
+                  <div class="fact-card-inner">
+                    <div class="fact-icon" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" fill="none">
+                        <path d="M12 3C7.582 3 4 6.582 4 11C4 15.418 7.582 19 12 19C16.418 19 20 15.418 20 11C20 6.582 16.418 3 12 3Z" stroke="currentColor" stroke-width="2" />
+                        <path d="M12 7V11L15 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                        <path d="M9 21H15" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                      </svg>
+                    </div>
+                    <div>
+                      <p>Occasional forgetfulness is normal, but significant memory decline isn't. Staying mentally active, social, and healthy can help keep the brain sharp!</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="page-section myths-page">
+        <div class="container reveal">
+          <div class="post-shell">
+            <img class="post-logo" src="assets/logo.svg" alt="Kindled Spirits logo" />
+            <article class="myth-stack auto-reveal" data-reveal-delay="3000">
+              <div class="myth-row">
+                <span class="pill-banner fact-label">Myth:</span>
+                <div class="fact-card">
+                  <div class="fact-card-inner">
+                    <div class="fact-icon" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" fill="none">
+                        <path d="M9 4C11.5 8 12 12 10.5 16" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                        <path d="M15 4C17.5 8 18 12 16.5 16" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                        <path d="M6 20C8 17 10.5 16 12 16C13.5 16 16 17 18 20" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                      </svg>
+                    </div>
+                    <div>
+                      <p>Older people cannot stay physically active.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="btn btn-gold reveal-truth" type="button" data-reveal-button aria-expanded="false" aria-controls="truth-3">
+                Reveal the truth
+              </button>
+              <div class="myth-row">
+                <span class="pill-banner fact-label">Truth:</span>
+                <div class="fact-card truth-card" id="truth-3">
+                  <div class="fact-card-inner">
+                    <div class="fact-icon" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" fill="none">
+                        <circle cx="12" cy="5" r="2.5" stroke="currentColor" stroke-width="2" />
+                        <path d="M12 8L10 12L7 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                        <path d="M12 8L14 12L18 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                        <path d="M10.5 12L12 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                        <path d="M13.2 12L11 21" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                      </svg>
+                    </div>
+                    <div>
+                      <p>Regular movement — even just gentle walks or chair yoga — improves balance, mood, and longevity. It's never too late to start moving and stay healthy!</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="page-section myths-page">
+        <div class="container reveal">
+          <div class="post-shell">
+            <img class="post-logo" src="assets/logo.svg" alt="Kindled Spirits logo" />
+            <span class="pill-banner">Let's Wrap It Up</span>
+            <article class="post-card">
+              <p class="body-copy" style="margin:0;">
+                Don't let myths guide your understanding of aging. Stay informed, reach out to seniors in your life, and show them they're valued. Small gestures of connection can make a meaningful difference in someone else's day.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <img src="assets/logo.svg" alt="Kindled Spirits logo" />
+          <div class="footer-brand-name">Kindled Spirits</div>
+          <p>Igniting connection between generations.</p>
+        </div>
+        <div class="footer-links" aria-label="Footer links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="myths.html">Myths &amp; Facts</a>
+          <a href="events.html">Our Work</a>
+          <a href="join.html">Join Us</a>
+        </div>
+        <div class="footer-actions">
+          <a href="https://www.instagram.com/kindled.spirits_/" target="_blank" rel="noopener noreferrer">
+            <span style="display:inline-flex;align-items:center;gap:0.45rem;">
+              <svg class="social-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <rect x="3.5" y="3.5" width="17" height="17" rx="5" stroke="currentColor" stroke-width="2" />
+                <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="2" />
+                <circle cx="17.2" cy="6.8" r="1.3" fill="currentColor" />
+              </svg>
+              Instagram
+            </span>
+          </a>
+          <a href="https://bit.ly/KSApply" target="_blank" rel="noopener noreferrer">Apply Now</a>
+        </div>
+        <div class="footer-meta">© 2026 Kindled Spirits. All rights reserved.</div>
+      </div>
+    </footer>
+  </body>
+</html>
